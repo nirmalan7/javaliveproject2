@@ -16,10 +16,11 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: devopsbyrushi/liveproject2
+        image: devopsbyrushi/augustproject2023
         ports:
         - containerPort: 8080
 ---
+
 
 apiVersion: v1
 kind: Service
@@ -35,4 +36,3 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8080
-
