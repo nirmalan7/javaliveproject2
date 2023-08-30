@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: devopsbyrushi/augustproject2023
+        image: nimmy7/pipelineproject2
         ports:
         - containerPort: 8080
 ---
